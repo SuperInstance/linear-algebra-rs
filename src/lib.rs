@@ -9,9 +9,13 @@
 //! - [`elimination`] — Gaussian elimination and LU decomposition
 //! - [`eigen`] — Power method eigenvalue computation
 //! - [`svd`] — 2×2 Singular Value Decomposition
+//! - [`decomposition`] — LU, QR (Householder), and SVD (power iteration) decompositions
+//! - [`iterative`] — Iterative solvers: CG, GMRES, Gauss-Seidel, Jacobi, preconditioners
 
+pub mod decomposition;
 pub mod eigen;
 pub mod elimination;
+pub mod iterative;
 pub mod matrix;
 pub mod svd;
 pub mod vector;
