@@ -1,0 +1,13 @@
+[package]
+name = "linear-algebra-rs"
+version = "0.1.0"
+edition = "2021"
+description = "Linear algebra operations: vector/matrix ops, Gaussian elimination, power method eigenvalues, and 2×2 SVD"
+license = "MIT OR Apache-2.0"
+keywords = ["linear-algebra", "matrix", "eigenvalue", "svd", "gaussian-elimination"]
+categories = ["algorithms", "mathematics", "science"]
+repository = "https://github.com/SuperInstance/linear-algebra-rs"
+authors = ["SuperInstance"]
+readme = "README.md"
+
+[dependencies]
